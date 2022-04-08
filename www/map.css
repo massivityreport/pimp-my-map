@@ -1,0 +1,14 @@
+.block {
+    float: left;
+    width: 450;
+}
+.frame {
+    border: solid lightgrey 1pt;
+    padding: 5px;
+}
+#map g.region path {
+    fill: white;
+}
+#map g.region:hover path {
+    fill: lightblue;
+}
